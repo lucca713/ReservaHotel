@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ReservaHotel
 {
-    internal class Pessoa
+    public class Pessoa
     {
+        public string Nome { get; set;}
+        public string Sobrenome { get; set;}
+
+        public Pessoa(string nome, string sobreNome)
+        {
+            Nome = nome;
+            Sobrenome = sobreNome;
+        }
     }
 }
