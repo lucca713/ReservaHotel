@@ -8,15 +8,15 @@ namespace ReservaHotel
 {
     public class Suite
     {
-        private string _tiposuit { get; set; }
-        private int _capacidade { get; set; }
-        private  double _valordiaria { get; set; }
+        public string Tiposuit { get; set; }
+        public int Capacidade { get; set; }
+        public double Valordiaria { get; set; }
 
-        public Suite(string Tiposuit, int Capacidade, double ValorDiaria)
+        public Suite(string tiposuit, int capacidade, double valorDiaria)
         {
-            _tiposuit = Tiposuit;
-            _capacidade = Capacidade;
-            _valordiaria = ValorDiaria;
+            Tiposuit = tiposuit;
+            Capacidade = capacidade;    
+            Valordiaria = valorDiaria;  
         }
 
     }
